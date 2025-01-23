@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBVMY9S77K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HBVMY9S77K');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/update.css">
+    <link rel="icon" href="../Img/Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Calculator Bazar | Latest Update</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="../index.html">
+            <div class="logo"></div>
+        </a>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a href="../index.html" id="home" class="anchor">Home</a>
+                <a href="available-calculators.html" id="available-calculator" class="anchor">Available
+                    Calculators</a>
+                <a href="history.html" id="history-of-calculator" class="anchor">History of Calculator</a>
+                <a href="contact.html" id="contact" class="anchor">Contact</a>
+                <a href="update.html" id="whats_new?" class="anchor">What's New</a>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="main-div-1">
+        <div id="div">
+            <button id="version" title="Current Version">V. 1.0</button>
+            <span>
+                <h2>What's New?</h2>
+                <h4>Find details about the most recent update on the website.</h4>
+            </span>
+        </div>
+        <div>
+            <ol>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>&copy; <span id="year"></span>, Calculator Bazar. All rights reserved.</h3>
+    </footer>
+
+    <script>
+        document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
